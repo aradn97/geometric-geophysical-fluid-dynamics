@@ -42,7 +42,7 @@ Let $t$ be absolute Newtonian time, $x^i$ (with $i = 1, 2, 3$) the spatial coord
 $x^4$ the auxiliary coordinate. The five-dimensional line element is 
 
 $$
-d\ell^2 = g_{ij}\,dx^i dx^j + 2 g_{0i}\,dx^i dt - 2\Phi_e\,dt^2 + 2\,dt\,dx^4 ,
+d\ell^2 = g_{ij} dx^i dx^j + 2 g_{0i} dx^i dt - 2\Phi_e dt^2 + 2 dt dx^4 ,
 $$
 
 where $g_{ij}$ is the ordinary spatial metric, $g_{0i}$ describes the motion of the frame
@@ -88,15 +88,15 @@ towards the east, the north and upwards, measured relative to the rotating Earth
 $\rho$ the density and $p$ the pressure, the momentum equations derived in the paper read
 
 $$
-\frac{dU}{dt} - \frac{UV\tan\varphi}{r} + \frac{UW}{r} - 2\Omega\sin\varphi\,V + 2\Omega\cos\varphi\,W = -\frac{1}{\rho r\cos\varphi}\frac{\partial p}{\partial\lambda} ,
+\frac{dU}{dt} - \frac{UV\tan\varphi}{r} + \frac{UW}{r} - 2\Omega\sin\varphi V + 2\Omega\cos\varphi W = -\frac{1}{\rho r\cos\varphi}\frac{\partial p}{\partial\lambda} ,
 $$
 
 $$
-\frac{dV}{dt} + \frac{U^2\tan\varphi}{r} + \frac{VW}{r} + 2\Omega\sin\varphi\,U = -\frac{1}{\rho r}\frac{\partial p}{\partial\varphi} - \frac{1}{r}\frac{\partial\Phi_e}{\partial\varphi} ,
+\frac{dV}{dt} + \frac{U^2\tan\varphi}{r} + \frac{VW}{r} + 2\Omega\sin\varphi U = -\frac{1}{\rho r}\frac{\partial p}{\partial\varphi} - \frac{1}{r}\frac{\partial\Phi_e}{\partial\varphi} ,
 $$
 
 $$
-\frac{dW}{dt} - \frac{U^2+V^2}{r} - 2\Omega\cos\varphi\,U = -\frac{1}{\rho}\frac{\partial p}{\partial r} - \frac{\partial\Phi_e}{\partial r} .
+\frac{dW}{dt} - \frac{U^2+V^2}{r} - 2\Omega\cos\varphi U = -\frac{1}{\rho}\frac{\partial p}{\partial r} - \frac{\partial\Phi_e}{\partial r} .
 $$
 
 The thin-shell approximation replaces $r$ by a constant radius in the horizontal geometry and
@@ -118,10 +118,10 @@ The three panels show, at a height of 9,000 ft (2,743 m):
 
 1. the horizontal pressure-gradient acceleration, $|\nabla_h p|/\rho$, with $p$ the pressure
    and $\rho$ the density, which sets the scale of the horizontal dynamics;
-2. the eastward non-traditional Coriolis term, $|2\Omega\cos\varphi\,W|$, divided by that
+2. the eastward non-traditional Coriolis term, $|2\Omega\cos\varphi W|$, divided by that
    pressure-gradient acceleration;
 3. the ratio of the non-traditional to the traditional Coriolis acceleration,
-   $|\cot\varphi\,W| / \sqrt{U^2 + V^2}$, where $U$ and $V$ are the eastward and northward
+   $|\cot\varphi W| / \sqrt{U^2 + V^2}$, where $U$ and $V$ are the eastward and northward
    wind.
 
 Grey marks points with no data: ground above 9,000 ft (the Rockies and the Andes) and the
