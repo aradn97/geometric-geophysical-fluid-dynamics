@@ -173,7 +173,12 @@ runs, to download the GFS fields.
 
 - `differential_geometry_for_geophysics.ipynb`: the notebook described above.
 - `figures/`: the figure shown in this README, exported from the last cell of the notebook.
+- `LICENSE`: the MIT licence covering this repository.
 
 ## Citation
 
 If you use this notebook, please cite the paper above. 
+
+## Licence
+
+This repository is released under the MIT licence; see [`LICENSE`](LICENSE).
